@@ -22,5 +22,5 @@ Material materials[] = {
     {QColor(139, 69, 19, 255), 0.9}  // Дерево\гипсокартон
 };
 */
-extern Material materials[];
+extern Material materials[4];
 #endif // MATERIAL_H

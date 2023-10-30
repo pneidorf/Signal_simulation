@@ -27,6 +27,11 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     int **map_obj;
+
+
+    void drawSignalStrength(QPixmap *map);
+    void setupMap();
+    void createColorMap();
 private:
     QLabel *label_;
     QGroupBox *gradientGroupBox_;
