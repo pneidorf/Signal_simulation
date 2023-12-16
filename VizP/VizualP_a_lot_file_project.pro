@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui widgets datavisualization 3dcore 3drender 3dinput 3dextras
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -13,6 +13,7 @@ SOURCES += \
     colors.cpp \
     main.cpp \
     mainwindow.cpp \
+    map_heat.cpp \
     material.cpp \
     math.cpp
 
@@ -20,6 +21,7 @@ HEADERS += \
     Bresenham.h \
     colors.h \
     mainwindow.h \
+    map_heat.h \
     material.h \
     math.h
 
